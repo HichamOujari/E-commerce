@@ -3,6 +3,7 @@ import '../styles/home.module.css'
 import React, { Component } from 'react';
 import Nav from "../components/nav"
 import Footer from "../components/footer"
+import Main from "../components/main"
 
 export default class Home extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class Home extends Component {
         </Head>
         <main>
           <Nav/>
+          <Main />
           <Footer/>
         </main>
     </div>

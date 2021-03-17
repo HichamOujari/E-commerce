@@ -1,0 +1,86 @@
+.MainHeader{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80vh;
+    margin-top: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 77% 100%, 50% 91%, 23% 100%, 0 100%);
+}
+
+.MainHeader>img{
+    width: 98%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+}
+
+.about{
+    display: flex;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    background: #ddd;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    clip-path: polygon(0 24%, 100% 0, 100% 76%, 0% 100%);
+
+}
+
+.about>.left{
+    max-width: 200px;
+    height:50vh;
+    margin-right: 20px;
+}
+
+.about>.right{
+    width: 60%;
+    max-width: 800px;
+}
+
+.about>.right>.title{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.about>.right>.SavoirPlus:hover{
+    color: black;
+    cursor: pointer;
+}
+.about>.right>.SavoirPlus{
+    background: rgb(182, 179, 179);
+    width: 90px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    transform-origin: all;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media (max-width:700px){
+    .about>.left{
+        width: 100%;
+        max-width: max-content;
+    }
+    .about>.right{
+        width: 100%;
+        max-width: max-content;
+    }
+    .about{
+        clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    }
+}

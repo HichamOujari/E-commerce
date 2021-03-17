@@ -18,10 +18,10 @@ export default class Footer extends Component {
             <p className="Email">Email : contact@saharamarbre.ma</p>
             <p className="tele"> Télé :  (+212) 5 37 655 979</p>
             <div className="socialMedia">
-              <Link href="/facebook" className="SocialMediaIcons"><FacebookIcon className="facebook "/></Link>
-              <Link href="/facebook" className="SocialMediaIcons"><YouTubeIcon className="youtube "/></Link>
-              <Link href="/facebook" className="SocialMediaIcons"><InstagramIcon className="instagram"/></Link>
-              <Link href="/facebook" className="SocialMediaIcons"><WhatsAppIcon className="whatsapp"/></Link>
+              <Link href="/facebook"><FacebookIcon className="SocialMediaIcons facebook "/></Link>
+              <Link href="/youtube" ><YouTubeIcon className="SocialMediaIcons youtube "/></Link>
+              <Link href="/instagram" ><InstagramIcon className="SocialMediaIcons instagram"/></Link>
+              <Link href="/whatsapp"><WhatsAppIcon className="SocialMediaIcons whatsapp"/></Link>
             </div>
           </div>
           <div className="right">

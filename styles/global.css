@@ -115,11 +115,11 @@ nav>.MenuBar>.MenuBar>.DDevis:hover{
   color: gray;
   font-size: 16px;
   margin-top: 20px;
-  border-top: 2px solid rgb(192, 185, 185);
+  border-top: 2px solid rgb(216, 213, 213);
 }
 
 .footer{
-  border-top: 2px solid rgb(192, 185, 185);
+  border-top: 2px solid rgb(226, 221, 221);
   margin-top: 30px;
   padding-top: 30px;
 }
@@ -130,41 +130,46 @@ nav>.MenuBar>.MenuBar>.DDevis:hover{
  align-items: center;
 }
 .footer>.top>.left{
-  max-width: 300px;
+  max-width: 400px;
   margin-right: 20px;
 }
 .footer>.top>.left>img{
+  width: 210px;
 }
 .footer>.top>.left>.title{
-
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
 }
-.footer>.top>.left>.Addr{
-
-}
-.footer>.top>.left>.Email{
-
-}
-.footer>.top>.left>.tele{
-
+.footer>.top>.left>.Addr,.footer>.top>.left>.tele,.footer>.top>.left>.Email{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .footer>.top>.left>.socialMedia{
-
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer>.top>.left>.socialMedia>.SocialMediaIcons{
   cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 4px;
+  transform: scale(1.6);
+  margin-right: 20px;
+  color: white;
 }
-.footer>.top>.left>.socialMedia>.SocialMediaIcons>.facebook{
-  
+.footer>.top>.left>.socialMedia>.facebook{
+  background: rgb(56, 56, 221);
 }
-.footer>.top>.left>.socialMedia>.SocialMediaIcons>.youtube{
-
+.footer>.top>.left>.socialMedia>.youtube{
+  background: rgb(207, 44, 44);
 }
-.footer>.top>.left>.socialMedia>.SocialMediaIcons>.instagram{
-
+.footer>.top>.left>.socialMedia>.instagram{
+  background: linear-gradient(#a34f44,blue);
 }
-.footer>.top>.left>.socialMedia>.SocialMediaIcons>.whatsapp{
-
+.footer>.top>.left>.socialMedia>.whatsapp{
+  background: green;
 }
 
 
@@ -173,7 +178,8 @@ nav>.MenuBar>.MenuBar>.DDevis:hover{
 
 
 .footer>.top>.right{
-  
+  display: flex;
+  justify-content: center;
 }
 .footer>.top>.right>.maps{
   max-width: 500px;
@@ -189,6 +195,7 @@ nav>.MenuBar>.MenuBar>.DDevis:hover{
   .footer>.top>.right>.maps{
     margin-top: 40px;
     width: 95%;
+    max-width: max-content;
   }
 }
 
@@ -214,7 +221,7 @@ nav>.MenuBar>.MenuBar>.DDevis:hover{
     position: fixed;
     z-index: 2;
     width: 100%;
-    height: 99vh;
+    height: 100vh;
     background: rgba(0,0,0,0.8);
     flex-direction: column;
     color: white;
@@ -225,7 +232,10 @@ nav>.MenuBar>.MenuBar>.DDevis:hover{
   #IconMenuCheck:checked ~ .MenuBar>.navBarEle{
     flex-direction: column;
     height: 80vh;
-    padding-top: 40px;
+    padding-top: 20px;
+  }
+  .MenuBar>.navBarEle>li{
+    margin-top: 50px;
   }
 }
 
