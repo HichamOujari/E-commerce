@@ -265,7 +265,7 @@ nav>.MenuBar>.MenuBar>.DDevis:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./about.jpg");
+  background-image: url("../public/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
