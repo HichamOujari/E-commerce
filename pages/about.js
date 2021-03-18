@@ -1,6 +1,6 @@
 
 import Head from 'next/head'
-import style from '../styles/home.module.css'
+import style from '../styles/about.module.css'
 import React, { Component } from 'react';
 import Nav from "../components/nav"
 import Footer from "../components/footer"
