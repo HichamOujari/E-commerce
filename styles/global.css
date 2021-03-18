@@ -255,3 +255,37 @@ nav>.MenuBar>.MenuBar>.DDevis:hover{
     transform: rotateY(360deg);
   }
 }
+/*about page ---------------------------------*/
+.apropos {
+  display: flex;
+  flex-direction: column;
+}
+.apropos > .part1{
+  height: 82vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Public/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.apropos > .part1 > p {
+  color: aliceblue;
+  font-size:60px;
+  font-weight: 300;
+}
+.apropos > .part2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.apropos > .part2 > .leftside , .rightside{
+  width: 70vh;
+  margin-right: 0px;
+  padding: 2px;
+}
+.apropos > .part2 > .rightside {
+  margin-left: 25px;
+}
