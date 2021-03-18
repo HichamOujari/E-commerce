@@ -28,7 +28,7 @@ Afin d’affiner votre choix, nous vous proposons plusieurs sites combinant show
                     </p>
                 </div>
                 <div className={style.rightside}>
-                    <ReactPlayer url="../https://https://www.youtube.com/watch?v=LcXuM3DTa3M&t=11s.youtube.com/watch?v=HV_4iVnTkm0/video.mp4" ></ReactPlayer>
+                    <ReactPlayer url="https://www.youtube.com/watch?v=LcXuM3DTa3M&t=11s&ab_channel=OpteamRH" ></ReactPlayer>
                 </div>
                 <div className={style.References}></div>
             </div>
