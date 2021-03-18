@@ -1,6 +1,6 @@
 
 import Head from 'next/head'
-import '../styles/home.module.css'
+import style from '../styles/home.module.css'
 import React, { Component } from 'react';
 import Nav from "../components/nav"
 import Footer from "../components/footer"
@@ -8,13 +8,13 @@ import ReactPlayer from 'react-player'
 
 export default function about() {
     return (
-        <div className="apropos">
+        <div className={style.apropos}>
             <Nav/>
-            <div className="part1">
+            <div className={style.part1}>
                 <p>A PROPOS DE NOUS</p> 
             </div>
-            <div className="part2">
-                <div className="leftside">
+            <div className={style.part2}>
+                <div className={style.leftside}>
                     <p>
                     Le Groupe SAHARA MARBRE fondé en 1983 est basé à  <strong>RABAT, TEMARA , CASABLANCA, MARRAKECH ET NADOR</strong>  Entreprise familiale d’une centaine d’employés, nous perpétuons un savoir faire détenu depuis Trois générations de marbriers alliant tradition et modernité.
 
@@ -27,10 +27,10 @@ tP
 Afin d’affiner votre choix, nous vous proposons plusieurs sites combinant showrooms, parc à tranches et ateliers.
                     </p>
                 </div>
-                <div className="rightside">
+                <div className={style.rightside}>
                     <ReactPlayer url="../https://https://www.youtube.com/watch?v=LcXuM3DTa3M&t=11s.youtube.com/watch?v=HV_4iVnTkm0/video.mp4" ></ReactPlayer>
                 </div>
-                <div className="References"></div>
+                <div className={style.References}></div>
             </div>
             <Footer/>
         </div>
