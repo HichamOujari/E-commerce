@@ -1,3 +1,5 @@
+/*Fonts : */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /*about page ---------------------------------*/
 .apropos {
     display: flex;
@@ -20,6 +22,9 @@
   }
   .apropos > .part2 {
     display: flex;
+    background-image: url("../public/About/gray.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -31,4 +36,27 @@
   }
   .apropos > .part2 > .rightside {
     margin-left: 25px;
+  }
+  .References {
+    /* background-image: url("../public/About/reference.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin-top: 0;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .References > div {
+    font-family: Arial, Helvetica, sans-serif  ;
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(114, 110, 104);
+  }
+  .Brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27px;
   }
