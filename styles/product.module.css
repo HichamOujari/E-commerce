@@ -1,0 +1,6 @@
+.produit {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}

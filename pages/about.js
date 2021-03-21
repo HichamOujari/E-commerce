@@ -34,17 +34,14 @@ Afin d’affiner votre choix, nous vous proposons plusieurs sites combinant show
             <div className={style.References}>
                     <div>Nos References </div>
                     <div className={style.Brands} >
-                       <Image src="/../public/About/caree.png"   width={100} height={100}        />
-                       <Image src="/../public/About/caree.png"   width={100} height={100}        />
-                       <Image src="/../public/About/caree.png"   width={100} height={100}        />
-                       <Image src="/../public/About/caree.png"   width={100} height={100}        />
-                       <Image src="/../public/About/caree.png"   width={100} height={100}        />
-                       <Image src="/../public/About/caree.png"   width={100} height={100}        />
-                       <Image src="/../public/About/caree.png"   width={100} height={100}        />
-                       <Image src="/../public/About/caree.png"   width={100} height={100}        />
-                       <Image src="/../public/About/caree.png"   width={100} height={100}        />
+                       <Image className={style} src="/../public/About/coca.png"   width={100} height={100}        />
+                       <Image src="/../public/About/nike.png"   width={100} height={100}/>
+                       <Image src="/../public/About/caree.png"   width={100} height={100}/>
+                       <Image src="/../public/About/honme.png"   width={100} height={100}/>
+                       <Image src="/../public/About/book.png"   width={100} height={100}/>
                     </div>
                 </div>
+                
             <Footer/>
         </div>
     )
